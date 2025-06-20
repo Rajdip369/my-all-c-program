@@ -1,0 +1,16 @@
+#include<stdio.h>
+//declaration/prototype
+
+void hellow();
+int main()
+{
+// function call
+ hellow();
+ return 0;
+}
+
+//function definition
+void hellow()
+{
+ printf("hellow!\n");
+}
